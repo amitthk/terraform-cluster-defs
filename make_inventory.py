@@ -9,7 +9,7 @@ INVENTORY_FILE_PATH = os.path.join(PATH,'.','ansible','hosts')
 inventory_template = '''
 [all]
 {reserved_hdpspark_bastion}
-{reserved_hdpspark_bastion}
+{reserved_hdpspark_master}
 
 [hosts]
 {reserved_hdpspark_master}
