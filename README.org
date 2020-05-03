@@ -10,5 +10,5 @@ terraform apply
 terraform destroy
 
 * Make inventory
-
+aws --region=ap-southeast-1 s3 cp s3://tfstates.atksv.mywire.org/inventory/terraform/tf-nomad/terraform.state ./terraform.tfstate
 python make_inventory.py terraform.tfstate
