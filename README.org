@@ -3,7 +3,8 @@
 * Init
 terraform init -backend-config=backend.tfvars
 
-* Plan
+* Plan & Apply
+terraform apply
 terraform apply
 
 * Destroy
