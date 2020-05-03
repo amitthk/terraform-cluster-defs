@@ -1,0 +1,14 @@
+* Terraform Cluster definitions
+
+* Init
+terraform init -backend-config=backend.tfvars
+
+* Plan
+terraform apply
+
+* Destroy
+terraform destroy
+
+* Make inventory
+
+python make_inventory.py terraform.tfstate

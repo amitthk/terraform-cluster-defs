@@ -25,8 +25,5 @@ module "hdpsparkstack_reserved" {
 
 terraform{
   backend "s3" {
-    bucket = "tfstates.atksv.mywire.org"
-    key = "inventory/terraform/tf-nomad/terraform.state"
-    region = "ap-southeast-1"
   }
 }

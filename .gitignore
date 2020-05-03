@@ -3,4 +3,5 @@
 .terraform/
 inventory.txt
 terraform.tfvars
+backend.tfvars
 ansible/hosts
